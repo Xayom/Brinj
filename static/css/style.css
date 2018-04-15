@@ -1,0 +1,29 @@
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+
+#intro {
+    background: url("back.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.top-nav-collapse {
+    background-color: #100901;
+}
+
+#navbar1 {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+#navbar2 {
+    position: absolute;
+    right: 1%;
+    transform: translatex(-50%);
+}
